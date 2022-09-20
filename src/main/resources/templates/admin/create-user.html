@@ -60,15 +60,15 @@
                         <form action="#" th:action="@{/createUser}" th:object="${user}" th:method="POST" >
                             <input type="hidden" name="id" th:field="${user.id}">
                             <label class="d-flex mx-auto justify-content-center" for="firstName"><b>FirstName</b></label>
-                            <input type="text" style="width: 280px" name="firstName" id="firstName" placeholder="First name" class="form-control d-flex mx-auto justify-content-center" required/>
+                            <input type="text" style="width: 280px" name="firstName" id="firstName" placeholder="First name" class="form-control d-flex mx-auto justify-content-center mb-2" required/>
                             <label class="d-flex mx-auto justify-content-center" for="lastName"><b>LastName</b></label>
-                            <input type="text" style="width: 280px" name="lastName" id="lastName" placeholder="Last name" class="form-control d-flex mx-auto justify-content-center" required/>
+                            <input type="text" style="width: 280px" name="lastName" id="lastName" placeholder="Last name" class="form-control d-flex mx-auto justify-content-center mb-2" required/>
                             <label class="d-flex mx-auto justify-content-center" for="age"><b>Age</b></label>
-                            <input type="number" style="width: 280px" name="age" id="age" placeholder="Age" class="form-control d-flex mx-auto justify-content-center" required/>
+                            <input type="number" style="width: 280px" name="age" id="age" placeholder="Age" class="form-control d-flex mx-auto justify-content-center mb-2" required/>
                             <label class="d-flex mx-auto justify-content-center" for="email"><b>Email</b></label>
-                            <input type="email" style="width: 280px" name="email" id="email" placeholder="Email" class="form-control d-flex mx-auto justify-content-center" required/>
+                            <input type="email" style="width: 280px" name="email" id="email" placeholder="Email" class="form-control d-flex mx-auto justify-content-center mb-2" required/>
                             <label class="d-flex mx-auto justify-content-center" for="password"><b>Password</b></label>
-                            <input type="password" style="width: 280px" name="password" id="password" placeholder="Password" class="form-control d-flex mx-auto justify-content-center" required/>
+                            <input type="password" style="width: 280px" name="password" id="password" placeholder="Password" class="form-control d-flex mx-auto justify-content-center mb-2" required/>
 
                             <label class="d-flex mx-auto justify-content-center"><b>Role</b></label>
                                 <select class="d-flex mx-auto justify-content-center form-control" multiple size="2" style="width: 280px" name="roles">
