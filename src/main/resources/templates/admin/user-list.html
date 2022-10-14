@@ -129,7 +129,7 @@
                                     </div>
                                 </form>
                             </div>
-                            <!-- Modal edit -->
+                            <!-- Modal delete -->
                             <div class="modal fade" th:id="${'delete' + user.getId()}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exmModalLabel"  aria-label="true">
                                 <form th:action="@{/delete/{id}(id=${user.getId()})}" th:method="GET">
                                     <div class="modal-dialog">
